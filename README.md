@@ -5,27 +5,20 @@
 
 ## **Instruções**
 Você deve efetuar o _pull_ do código local e após a finalização, abrir um _**Merge Request**_ para avaliação.
-TEMPO ESTIMADO DE RESOLUÇÃO: **20~30min**
+TEMPO ESTIMADO DE RESOLUÇÃO: **30~45min**
 
 ## **Avaliação**
-Neste desafio, você deve identificar falhas no código que comprometam os seguintes itens:
+Neste desafio, você deve identificar falhas no código que comprometam os seguintes itens e implementar os itens faltantes:
 1. DDD
 2. Single Responsibility Principle
 3. Code quality
 4. RESTful Apps (HTTP Verbs and Codes)
 5. Immutability
-
-## **Desafio**
-Você deve melhorar o código apresentado, levando em consideração os pontos de avaliação.
-
-## **Recomendações**
-Recomendamos a implementação dos seguintes itens:
-1. Global Exception Handler
-2. Nullish verification
-3. Request validation
+6. Global Exception Handler
+7. Nullish verification
+8. Request validation
 
 ## **Preparação do ambiente**
-
 O projeto está preparado para utilizar um banco de dados **postgres**. Caso não tenha instalado na sua máquina, aconselhamos a utilização via **Docker**, através do seguinte comando:
 
 `docker run -d --name bbox_pg -p 25060:5432 -e POSTGRES_PASSWORD='postgres' -e PGDATA=/var/lib/postgresql/data/pgdata -v bbox_pg:/var/lib/postgresql/data postgres:12.2-alpine`
