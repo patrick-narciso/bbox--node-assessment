@@ -2,8 +2,8 @@ import express, { Request, Response } from "express";
 import "reflect-metadata";
 import { createConnection } from "typeorm";
 import { v4 as uuidv4 } from "uuid";
-import Project from "./entity/Project";
-import User, { UserEvent, UserRole } from "./entity/User";
+import Project from "./infra/db/entities/Project";
+import User, { UserEvent, UserRole } from "../entity/User";
 
 const PORT = process.env.PORT || 5001;
 
